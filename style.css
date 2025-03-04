@@ -4,13 +4,16 @@
   margin: 0;
   /* font-size: 16px; */
   font-family: sans-serif;
-  /* background-color: blue*/
+  /* background-color: rgb(252, 252, 254); */
 }
 .para-container {
   /* font-size: 25px; */
   padding: 5rem;
   background-image: url(Img/picture.jpg);
-  background-position: cover;
+  background-blend-mode: screen;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
   font-weight: 50px;
   position: relative;
 }
@@ -18,11 +21,15 @@
 .para1 {
   font-size: 5rem;
   text-align: center;
+  text-decoration: underline;
+  color: rgb(225, 225, 255);
 }
 
 .para2 {
   font-size: 2rem;
   margin: 2rem auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aliceblue;
 }
 
 .button {
@@ -41,4 +48,19 @@
   left: 0;
   right: 0;
   bottom: 0;
+}
+.clock-container {
+  padding: 2rem;
+  margin-bottom: 2rem auto;
+  background-image: url(Img/picture2.jpg);
+  background-repeat: no-repeat;
+}
+.clock {
+  color: blue;
+  text-decoration: underline;
+  margin-bottom: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.id {
+  padding: 2rem;
 }
